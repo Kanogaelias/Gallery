@@ -38,13 +38,6 @@ def filter_by_location(request,location_id):
     images = Image.filter_by_location(id=location_id)
     return render(request, 'location.html', {"images": images})
 
-# def filter_by_category(request,category_id):
-#     '''
-#     Filters the database and displays images according to category_id
-#     '''
-#     images = Image.filter_by_category(id=category_id)
-#     return render(request, 'categories.html', {"images": images})
-
 def filter_by_category(request,category_id):
     '''
     Filters the database and displays images according to category_id
