@@ -19,9 +19,6 @@ Django
 Heroku
 PostgreSql
 
-# DjangoAdmin
-username:elias
-password:mikedad2002
 
 # Bugs
 If you encounter any bugs, email me on kanogae@gmail.com. If you would like to add some changes, please feel free to fork the project and make a pull request.
